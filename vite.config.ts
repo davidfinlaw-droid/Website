@@ -18,7 +18,7 @@ export default defineConfig({
       'input-otp@1.4.2': 'input-otp',
       'figma:asset/529153f8f07b50747b05e6191c3d14a4f6856d7c.png': path.resolve(__dirname, './src/assets/529153f8f07b50747b05e6191c3d14a4f6856d7c.png'),
       'figma:asset/3ec7daeb593fc596625988e2dfc491d160f398f4.png': path.resolve(__dirname, './src/assets/3ec7daeb593fc596625988e2dfc491d160f398f4.png'),
-      // Added missing alias for daysSoda image used in src/data/menuData.ts
+      // Alias added for the daysSoda image used in src/data/menuData.ts
       'figma:asset/89fb0056387280c4164a127c17c1a15ac774c9ad.png': path.resolve(__dirname, './src/assets/89fb0056387280c4164a127c17c1a15ac774c9ad.png'),
       'embla-carousel-react@8.6.0': 'embla-carousel-react',
       'cmdk@1.1.1': 'cmdk',
@@ -54,7 +54,7 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: 'build',
+    outDir: 'dist',
   },
   server: {
     port: 3000,
